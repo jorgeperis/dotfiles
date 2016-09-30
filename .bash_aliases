@@ -11,8 +11,11 @@ alias grv='git revert'
 alias gs='git status -sb'
 alias ga="git add ."
 alias glog="git log --decorate --graph"
-alias gca='git commit -a -m'
+alias gca='git commit --amend'
 alias gp='git pull'
+alias gst='git stash'
+alias gstl='git stash list'
+alias gstp='git stash pop'
 
 # BUNDLER
 alias b='bundle'
@@ -24,6 +27,12 @@ alias ber='be rake'
 alias rs='rails s'
 alias rc='rails c'
 alias rr='rake routes'
+alias mi='ber db:migrate'
+alias rb='ber db:rollback'
+<<<<<<< HEAD
+alias test='bundle exec rake db:test:prepare'
+=======
+>>>>>>> 980195174f5864e380f1bc289a6930db18e6ec3b
 
 # TESTING
 alias t='be rspec spec/'

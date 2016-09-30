@@ -13,6 +13,7 @@ alias ga="git add ."
 alias glog="git log --decorate --graph"
 alias gca='git commit -a -m'
 alias gp='git pull'
+alias gst='git stash'
 
 # BUNDLER
 alias b='bundle'
@@ -24,6 +25,8 @@ alias ber='be rake'
 alias rs='rails s'
 alias rc='rails c'
 alias rr='rake routes'
+alias mi='ber db:migrate'
+alias rb='ber db:rollback'
 
 # TESTING
 alias t='be rspec spec/'

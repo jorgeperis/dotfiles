@@ -16,6 +16,8 @@ alias gp='git pull'
 alias gst='git stash'
 alias gstl='git stash list'
 alias gstp='git stash pop'
+alias gcp='git cherry-pick'
+alias grbm='git rebase master'
 
 # BUNDLER
 alias b='bundle'

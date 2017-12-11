@@ -20,6 +20,7 @@ alias gcp='git cherry-pick'
 alias grbm='git rebase master'
 alias grb='git rebase'
 alias grc="git rebase --continue"
+alias gnb="git checkout -b"
 
 # BUNDLER
 alias b='bundle'

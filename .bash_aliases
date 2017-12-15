@@ -36,6 +36,9 @@ alias mi='ber db:migrate'
 alias rb='ber db:rollback'
 alias test='ber db:test:prepare'
 
+# FAYE
+alias fs='rackup faye.ru -E production -s thin -o 0.0.0.0'
+
 #REACT
 alias rsr='rails s -b 0.0.0.0'
 alias yi='yarn install'
@@ -60,4 +63,3 @@ parse_git_branch() {
 }
 
 PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
-

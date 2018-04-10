@@ -36,6 +36,9 @@ alias mi='ber db:migrate'
 alias rb='ber db:rollback'
 alias test='ber db:test:prepare'
 
+# WEBPACKER
+alias npms='npm run dev'
+
 # FAYE
 alias fs='rackup faye.ru -E production -s thin -o 0.0.0.0'
 

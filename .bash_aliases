@@ -36,6 +36,10 @@ alias mi='ber db:migrate'
 alias rb='ber db:rollback'
 alias test='ber db:test:prepare'
 
+#VM
+alias vmservers='./quipu-scripts/start_servers.sh'
+alias devenv='bin/quipo devenv'
+
 # WEBPACKER
 alias npms='npm run dev'
 

@@ -7,25 +7,17 @@ alias gc='git commit -m'
 alias gco='git checkout'
 alias gcom='gco master'
 alias gb='git branch'
-alias grv='git revert'
 alias gs='git status -sb'
 alias ga="git add ."
 alias glog="git log --decorate --graph"
 alias gca='git commit --amend --no-edit'
 alias gp='git pull --rebase'
-alias gst='git stash'
-alias gstl='git stash list'
-alias gstp='git stash pop'
-alias gcp='git cherry-pick'
 alias grbm='git rebase master'
-alias grb='git rebase'
 alias grc="git rebase --continue"
 alias gnb="git checkout -b"
 
 # BUNDLER
-alias b='bundle'
-alias bi='bundle install'
-alias be='b exec'
+alias be='bundle exec'
 alias ber='be rake'
 
 # RAILS
@@ -37,19 +29,14 @@ alias rb='ber db:rollback'
 alias test='ber db:test:prepare'
 
 #VM
-alias vmservers='./quipu-scripts/start_servers.sh'
 alias devenv='bin/quipo devenv'
+alias devenv_mount='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipuapp/ ~/quipu/quipu'
 
-# WEBPACKER
-alias npms='npm run dev'
+# NPM
+alias npms='sudo npm start'
 
 # FAYE
 alias fs='rackup faye.ru -E production -s thin -o 0.0.0.0'
-
-#REACT
-alias rsr='rails s -b 0.0.0.0'
-alias yi='yarn install'
-alias ys='yarn start'
 
 #PHP
 alias phps='php -S localhost:8000'
@@ -61,8 +48,9 @@ alias rubo='bundle exec rubocop -l app'
 # ATOM
 alias a='atom .'
 
-#UBUNTU
+#LINUX
 alias ss='gnome-screenshot -a'
+alias kill3000="fuser -k -n tcp 3000"
 
 # Add git branch if its present to PS1
 parse_git_branch() {

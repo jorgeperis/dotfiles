@@ -35,6 +35,9 @@ alias devenv_mount='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipuapp/ ~/qui
 # NPM
 alias npms='sudo npm start'
 
+# YARN
+alias yarns='yarn start'
+
 # FAYE
 alias fs='rackup faye.ru -E production -s thin -o 0.0.0.0'
 

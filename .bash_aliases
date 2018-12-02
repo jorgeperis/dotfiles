@@ -30,7 +30,7 @@ alias test='ber db:test:prepare'
 
 #VM
 alias devenv='bin/quipo devenv'
-alias devenv_mount='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipuapp/ ~/quipu/quipu'
+alias devenv_mount='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipuapp/ ~/proyectos/quipu/quipu'
 
 # NPM
 alias npms='sudo npm start'

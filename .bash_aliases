@@ -30,7 +30,9 @@ alias test='ber db:test:prepare'
 
 #VM
 alias devenv='bin/quipo devenv'
-alias devenv_mount='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipuapp/ ~/proyectos/quipu/quipu'
+alias devenv_mount_quipuapp='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipuapp/ ~/proyectos/quipu/quipu'
+alias devenv_mount_quipu-wordpress='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/quipu-wordpress/ ~/proyectos/quipu/quipu-wordpress'
+alias devenv_mount_zyfro-wordpress='sudo mount -o nfsvers=3 getquipu.devenv:/mnt/zyfro-wordpress/ ~/proyectos/quipu/zyfro-wordpress'
 
 # NPM
 alias npms='sudo npm start'
